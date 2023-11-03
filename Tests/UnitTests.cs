@@ -84,7 +84,7 @@ namespace GithubActionsLab
         [Test]
         public void Divide_Valid_Henexson()
         {
-            Assert.AreEqual(1, Program.Divide("2", "1"));
+            Assert.AreEqual(2, Program.Divide("2", "1"));
             Assert.AreEqual(3, Program.Divide("6", "2"));
             Assert.AreEqual(1, Program.Divide("5", "5"));
         }
